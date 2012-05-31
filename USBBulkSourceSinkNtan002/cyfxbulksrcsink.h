@@ -56,7 +56,7 @@
  * supported is limited by the USB hosts available. The maximum value for this is 16
  * and the minimum (no-burst) is 1. */
 
-#define CY_FX_EP_BURST_LENGTH          (1)      /* Burst length in packets. The buffer size is allocated
+#define CY_FX_EP_BURST_LENGTH          (8)      /* Burst length in packets. The buffer size is allocated
                                                    to max packet size * burst length for all USB speeds
                                                    but the bursting is done only for USB SS speeds. */
 #define CY_FX_DMA_SIZE_MULTIPLIER      (1)      /* DMA buffer size multiplier. This is applied for all
