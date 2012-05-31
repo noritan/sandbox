@@ -56,8 +56,5 @@ USB BULK SOURCE SINK EXAMPLE
      cyfxbulksrcsink.h. When making these changes, make sure that there is enough
      memory available for buffering.
 
-$Id$
-$Header$
-$Date$
 []
 
